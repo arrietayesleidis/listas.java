@@ -16,14 +16,14 @@ public class Usuarios {
     }
 
     public void guardarUsuario() {
-        usuarios.add(this); // Agrega la instancia actual a la lista
+        usuarios.add(this);
     }
 
     public static List<Usuarios> listarUsuarios() {
         return usuarios;
     }
 
-    // Getters y Setters
+    
     public String getNombre() {
         return nombre;
     }
